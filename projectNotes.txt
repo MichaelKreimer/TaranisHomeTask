@@ -1,0 +1,16 @@
+#########################
+Author: Michael Kreimer
+Chat Web Application
+#########################
+
+-----------------------------------------------
+How to run project:
+1. 'ng serve' to run the Angular frontend server
+2. 'node server.js' to run the NodeJS backend server
+-----------------------------------------------
+How to use:
+You must first signup and then login.
+After you will be logged in, you will be able to write and delete messsages.
+
+
+Note: The application works with MongoDB as database.
