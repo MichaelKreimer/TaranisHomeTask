@@ -10,13 +10,19 @@ const app = express();
 
 mongoose
   .connect(
-    "mongodb+srv://Taranis:F1dGmNdxkBAK0f1x@cluster0-fyaau.mongodb.net/test?retryWrites=true"
+    "mongodb+srv://Taranis:SwmjtAeKukfsfrhV@cluster0-fyaau.mongodb.net/test?retryWrites=true"
+>>>>>>> a4980156e6c1ec8cbbeaed15a23eefc1fced8aff
   )
   .then(() => {
     console.log("Connected to database!");
   })
+
   .catch(() => {
     console.log("Connection failed!");
+=======
+  .catch((err) => {
+    console.log("Connection failed! "+err);
+>>>>>>> a4980156e6c1ec8cbbeaed15a23eefc1fced8aff
   });
 
 app.use(bodyParser.json());

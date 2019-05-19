@@ -9,8 +9,18 @@ How to run project:
 2. 'node server.js' to run the NodeJS backend server
 -----------------------------------------------
 How to use:
+<<<<<<< HEAD
 You must first signup and then login.
 After you will be logged in, you will be able to write and delete messsages.
 
 
 Note: The application works with MongoDB as database.
+=======
+1. Enter the application from localhost:4200
+2. Signup
+3. Login
+4. Your are now able to read and send post messages.
+
+
+Note: The application was developed using the MEAN stack.
+>>>>>>> a4980156e6c1ec8cbbeaed15a23eefc1fced8aff
